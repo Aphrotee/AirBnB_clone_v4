@@ -23,7 +23,22 @@ header div {
     margin-right: 30px;
     background-color: #cccccc;
 }
+header {
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 
+header > .logo {
+    width: 142px;
+    height: 60px;
+    background: url("../images/logo.png") no-repeat center;
+    margin-left: 20px;
+}
 .available {
     background-color: #ff545f;
 }

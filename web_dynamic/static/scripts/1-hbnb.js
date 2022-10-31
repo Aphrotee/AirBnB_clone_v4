@@ -28,9 +28,9 @@ $(document).ready(function () {
     console.log(checkedAmenities);
     let lst = Object.values(checkedAmenities);
     if (lst.length > 0) {
-      $('div.amenities > h4').text(Object.values(checkedAmenities).join(', '));
+      $('div.amenities h4').text(Object.values(checkedAmenities).join(', '));
     } else {
-      $('div.amenities > h4').html('&nbsp;');
+      $('div.amenities h4').html('&nbsp;');
     }
   });
 });
